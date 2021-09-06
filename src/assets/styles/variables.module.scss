@@ -1,0 +1,9 @@
+$color: skyblue;
+$primaryColor: red;
+$test: #f55555;
+
+:export {
+    color: $color;
+    primary-color: $primaryColor;
+    test: $test;
+}
