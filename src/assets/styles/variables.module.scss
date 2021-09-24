@@ -2,8 +2,20 @@ $color: skyblue;
 $primaryColor: red;
 $test: #f55555;
 
+// SVG
+$stroke: #707070;
+$fill: #fff;
+
+// Fonts
+$f-light-gray: #707070;
+$f-black: #222;
+
 :export {
     color: $color;
     primary-color: $primaryColor;
     test: $test;
+    stroke: $stroke;
+    fill: $fill;
+    f-light-gray: $f-light-gray;
+    f-black: $f-black;
 }

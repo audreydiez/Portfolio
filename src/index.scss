@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import 'assets/styles/variables.module.scss';
+
+body {
+    font-family: 'Quicksand', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background-color: #f55555;
+    color: $f-black;
+}
+#root {
+    width: 100%;
+}
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+}
+
+a,
+a:hover,
+a:visited,
+a:focus {
+    color: $f-black;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+.sct-pres {
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+
+    height: 800px;
+
+    background-color: #fff;
+
+    &__inner {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0%, -70%);
+
+        & h1 {
+            margin-bottom: 1rem;
+        }
+    }
+}
